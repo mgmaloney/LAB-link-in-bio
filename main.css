@@ -9,7 +9,7 @@ img {
 }
 
 .container::before {
-  -webkit-filter: blur(8px);
+  -webkit-filter: blur(25px);
   content: "";
   background: url("/imgs/IMG954142.jpg") no-repeat center center/cover;
   position: absolute;
@@ -33,6 +33,11 @@ img {
 
 .item {
   margin: 10px;
+}
+
+.name,
+.textnumber {
+  font-weight: bold;
 }
 
 .name-number {
